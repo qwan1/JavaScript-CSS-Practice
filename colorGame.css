@@ -1,7 +1,7 @@
 body {
 	background-color: #232323;
 	margin: 0;
-	font-family: "Montserrat", "Avenir";
+	font-family: 'Roboto', sans-serif;
 }
 
 .square {
@@ -39,13 +39,16 @@ h1 {
 #message {
 	display: inline-block;
 	width: 20%;
+	color: steelblue;
+	font-size: inherit;
+	font-weight: 700;
+	letter-spacing: 1px;
 }
 
 #stripe {
 	background: white;
 	height: 30px;
 	text-align: center;
-	color: black;
 }
 
 .selected {
